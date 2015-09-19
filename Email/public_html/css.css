@@ -1,0 +1,308 @@
+@font-face {
+    font-family: OpenSans-bold; 
+    src: url('fonts/OpenSans-Bold.ttf');   
+}
+
+
+
+
+body{
+
+    font-family: Verdana;
+    background: #fff;
+
+}
+.main{
+    margin: 0 auto;
+    width:780px;
+    margin:0 auto;
+    background: #f7f7f7;
+    font-family: Verdana;
+}
+
+
+.E_haeder{
+    padding: 21px 37px 21px 45px;
+    background: #212121;
+    color:#fff;
+
+}
+
+.E_haeder p{
+    float:right;
+    color: #ff6600;
+    font-size: 18px;
+    font-family: Verdana;
+    font-weight:100;
+    margin-top: 10px;
+
+
+}
+.left{
+    float:left;
+}
+
+.right{
+    float:right;
+}
+
+.clear{
+    clear: both;
+}
+
+
+.content{
+
+    padding: 28px 52px 53px 44px;
+}
+
+.content h2{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.content h3{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+
+.content p{
+    color:#666;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+
+.message{
+    margin-bottom: 39px;
+
+}
+.post{
+
+}
+
+.post img{
+    width: 201px;
+    height:184px;
+}
+
+.post  .opus{
+    width: 451px;
+    padding-left:30px;
+    background: #fff;
+    height: 184px;
+    margin-bottom: 11px;
+
+}
+
+
+.post div.left:last-child{
+    background: red;
+}
+
+
+
+.post h4{
+    margin-bottom: 3px;
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.post div:last-child{
+    background: red;
+}
+
+.opus h4,.opus p{
+    width: 400px;
+
+}
+
+.opus p{
+    font-size: 14px;
+}
+
+
+p.date{
+    font-size: 10px !important;
+    text-transform: uppercase;
+    color: #666;
+    margin-top: 11px;
+    margin-bottom: 4px;
+}
+
+.content  a.buttom{
+    font-family: OpenSans-bold;   
+    margin-left: 303px;
+    width: 66px;
+    display: block;
+    background: none repeat scroll 0 0 #ff6600;
+    border: medium none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #bababa, 0 0 1px #ffffff inset;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 5px 13px 7px 13px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 33px;
+    margin-top: 28px;
+
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.blogs {
+
+}
+
+.blogs .post .left img{
+    width: 144px;
+    height: 144px;
+}
+
+.post.blg{
+    padding: 21px 39px 18px 20px ;
+    background: #fff;
+    margin-bottom: 11px;
+}
+
+.post.blg .left img{
+
+
+}
+
+.post.blg{
+    height: auto;
+}
+
+.post.blg .opus{
+    width: auto;
+    margin-left: 7px;
+    height: auto;
+    margin-top: 12px;
+}
+
+.post.blg .opus h5{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    position: relative;
+   
+}
+
+/*.count{
+  float:left;
+  
+    height: 20px;
+    width: 20px;
+    margin-left: -15px;
+    
+}
+
+
+.count span{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+   color:white;
+    display: block;
+        background: url(images/radius.png);
+        background-size: cover;
+        
+        display: none;
+}*/
+
+
+.count {
+    position: absolute;
+    height: 20px;
+    font-size: 11px;
+    background: url(images/radius.png) 0px 0px no-repeat;
+    padding-top: 4px;
+    width: 19px;
+    margin-top: -6px;
+    margin-left: -10px;
+    color: #fff;
+    text-align: center;
+    padding-right: 2px;
+}
+
+.newssng p.date{
+    margin: 0px;
+    padding: 0px;
+    font-size: 9px !important;
+    text-transform: uppercase;
+    color: #666;
+    margin-bottom: -3px;
+}
+
+.content .newssng{
+    background: #fff;
+}
+
+.newssng b{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.newssng{
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 12px;
+    margin-bottom: 14px;
+    margin-top: 1px;
+}
+
+
+a.al_bg{
+
+    margin-bottom: 39px !important;
+    margin-top: 23px !important;
+
+}
+
+a.al_nw{
+    margin-top: 19px !important;
+    width: 70px !important;
+    padding-right: 9px !important;
+    margin-bottom: 73px !important;
+}
+
+.wee_sots a{
+    float:left;
+    margin-right: 8px;
+    width: 69px;
+}
+
+.wee_sots{
+    margin-bottom: 86px;
+    margin-top: 25px;
+    position: relative;
+}
+
+
+.girl_bll{
+    position: absolute;
+    top: -103px;
+    right: 5px;
+}
+
+
+.sended_m{
+    width: 527px;
+}
+
+.sended_m p{
+    font-size: 11px;
+    line-height:19px;
+    margin-bottom: 13px;
+}

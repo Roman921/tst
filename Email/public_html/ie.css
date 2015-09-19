@@ -1,0 +1,37 @@
+
+
+
+    .content  a.buttom{
+    font-family: Arial;   
+    margin-left: 303px;
+    width: 66px;
+    display: block;
+    background: none repeat scroll 0 0 #ff6600;
+    border: medium none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #bababa, 0 0 1px #ffffff inset;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 5px 13px 7px 13px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 33px;
+    margin-top: 28px;
+    *background:url(images/but_bg.png) no-repeat;/* Хак для IE 6- 7 */
+    font-size: 12px\9;
+    background:url(images/but_bg.png) no-repeat \0/; /* Хак для IE 8 */
+    padding-bottom: 5px\9;
+  *height: 40px;
+   
+}
+
+a.al_nw{
+    font-size: 11px !important;
+    padding-bottom: 8px;
+    
+}
+
+.count{
+    margin-left: -17px;
+}
